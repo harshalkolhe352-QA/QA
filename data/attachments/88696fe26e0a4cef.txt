@@ -1,0 +1,14 @@
+Post-logout URL: https://qa-dev-l3.mem360.org/?logoff=T&whence=
+Cookies after logout: [
+  'ak_bmsc',
+  'JSESSIONID',
+  'NS_VER',
+  'jsid_own',
+  'NLShopperId2',
+  'NLVisitorId',
+  'SSPOperationId_845764fc',
+  'SSPOperationId_91d94246',
+  'chrole',
+  'SSPOperationId_5d857f36',
+  'bm_sv'
+]

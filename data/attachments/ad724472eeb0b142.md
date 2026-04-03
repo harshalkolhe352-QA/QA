@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - navigation "Main" [ref=e7]:
+      - text:  
+      - generic [ref=e8]:
+        - link "M360 Webstore" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "M360 Webstore" [ref=e12]
+        - generic [ref=e13]:
+          - link "My Portal" [ref=e14] [cursor=pointer]:
+            - /url: /my-portal
+          - generic [ref=e15]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link " Login" [ref=e19] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e20]: 
+                  - text: Login
+              - listitem [ref=e21]: /
+              - listitem [ref=e22]:
+                - link "Register" [ref=e23] [cursor=pointer]:
+                  - /url: "#"
+            - text: 
+          - text: 
+          - button " 0" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]: 
+            - generic [ref=e32]: "0"
+          - button "" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: 
+        - navigation [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "Home" [ref=e41] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e42]:
+              - link "Join Us" [ref=e43] [cursor=pointer]:
+                - /url: /membership-registration
+            - listitem [ref=e44]:
+              - link "Learn" [ref=e45] [cursor=pointer]:
+                - /url: /learn
+            - listitem [ref=e46]:
+              - link "Support Us" [ref=e47] [cursor=pointer]:
+                - /url: /support-us
+            - listitem [ref=e48]:
+              - link "Attend Event" [ref=e49] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e50]:
+              - link "Merchandise" [ref=e51] [cursor=pointer]:
+                - /url: /merchandise
+            - listitem [ref=e52]:
+              - link "Publications" [ref=e53] [cursor=pointer]:
+                - /url: /publications
+            - listitem [ref=e54]:
+              - link "Credentialing" [ref=e55] [cursor=pointer]:
+                - /url: /credentialing-programs
+                - text: Credentialing
+                - img [ref=e56]
+            - listitem [ref=e58]:
+              - link "Coaching" [ref=e59] [cursor=pointer]:
+                - /url: /find-a-coach
+                - text: Coaching
+                - img [ref=e60]
+            - listitem [ref=e62]:
+              - link "Scholarship" [ref=e63] [cursor=pointer]:
+                - /url: /scholarships
+    - generic:
+      - generic:  
+  - generic [ref=e69]:
+    - text:  
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - heading "Sign In" [level=2] [ref=e74]
+        - paragraph [ref=e75]: Login below to checkout with an existing account
+        - group [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: Email Address *
+            - textbox "Email Address *" [active] [ref=e81]:
+              - /placeholder: your@email.com
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - text: Password *
+              - link "Forgot password?" [ref=e84] [cursor=pointer]:
+                - /url: /forgot-password
+            - textbox "Password * Forgot password?" [ref=e86]
+          - button "Sign In" [ref=e88] [cursor=pointer]
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: Don’t have an account?
+        - generic [ref=e91]:
+          - generic [ref=e92] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e95]:
+              - text: Sign-up as an
+              - generic [ref=e96]: Individual
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e100]:
+              - text: Request Account for an
+              - generic [ref=e101]: Organization
+  - contentinfo [ref=e102]:
+    - generic: 
+    - generic [ref=e103]:
+      - generic [ref=e109]:
+        - img [ref=e110]
+        - heading "we are an organization for teachers" [level=4] [ref=e111]
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "Home" [ref=e115] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e116]:
+          - link "Merchandise" [ref=e117] [cursor=pointer]:
+            - /url: /merchandise
+        - listitem [ref=e118]:
+          - link "Events" [ref=e119] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=e120]:
+          - link "Membership" [ref=e121] [cursor=pointer]:
+            - /url: /membership-registration
+      - generic [ref=e127]:
+        - text: 703 Ozella Heaven
+        - text: Goldner Camp
+        - text: NY
+      - generic [ref=e133]:
+        - text: Family involvement
+        - text: Institute for teaching
+        - text: Read across America
+    - generic [ref=e140]: © 2018-2020 Saralux
+```

@@ -1,0 +1,529 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner "Header" [ref=e5]:
+    - navigation "Main" [ref=e7]:
+      - text:  
+      - generic [ref=e8]:
+        - link "M360 Webstore" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "M360 Webstore" [ref=e12]
+        - generic [ref=e13]:
+          - link "My Portal" [ref=e14] [cursor=pointer]:
+            - /url: /my-portal
+          - generic [ref=e15]:
+            - text: 
+            - link "Welcome JohnRay company " [ref=e16] [cursor=pointer]:
+              - /url: "#"
+              - text:  Welcome
+              - strong [ref=e17]: JohnRay company
+              - generic [ref=e18]: 
+            - text:             
+          - text: 
+          - button " 0" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+            - generic [ref=e28]: "0"
+          - button "" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: 
+        - navigation [ref=e34]:
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Home" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "Join Us" [ref=e39] [cursor=pointer]:
+                - /url: /membership-registration
+            - listitem [ref=e40]:
+              - link "Learn" [ref=e41] [cursor=pointer]:
+                - /url: /learn
+            - listitem [ref=e42]:
+              - link "Support Us" [ref=e43] [cursor=pointer]:
+                - /url: /support-us
+            - listitem [ref=e44]:
+              - link "Attend Event" [ref=e45] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e46]:
+              - link "Merchandise" [ref=e47] [cursor=pointer]:
+                - /url: /merchandise
+            - listitem [ref=e48]:
+              - link "Publications" [ref=e49] [cursor=pointer]:
+                - /url: /publications
+            - listitem [ref=e50]:
+              - link "Credentialing" [ref=e51] [cursor=pointer]:
+                - /url: /credentialing-programs
+                - text: Credentialing
+                - img [ref=e52]
+            - listitem [ref=e54]:
+              - link "Coaching" [ref=e55] [cursor=pointer]:
+                - /url: /find-a-coach
+                - text: Coaching
+                - img [ref=e56]
+            - listitem [ref=e58]:
+              - link "Scholarship" [ref=e59] [cursor=pointer]:
+                - /url: /scholarships
+    - generic:
+      - generic:  
+  - generic [ref=e60]:
+    - list [ref=e63]:
+      - listitem [ref=e64]: Home
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - text: 
+          - generic [ref=e73]:
+            - text: Service Position
+            - button "Instructor - JohnRay company" [ref=e75] [cursor=pointer]: Instructor - JohnRay company
+          - button "Dashboard" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e81]: Dashboard
+          - button "Community" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e86]: Community
+          - button "Maintain Contact" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e91]: Maintain Contact
+          - button "Reports" [ref=e92] [cursor=pointer]:
+            - img [ref=e93]
+            - generic [ref=e96]: Reports
+          - button "Career Center" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e101]: Career Center
+            - generic [ref=e102]: 
+          - generic:
+            - button "Job Postings" [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+              - generic [ref=e107]: Job Postings
+            - button "Review Applications" [ref=e108] [cursor=pointer]:
+              - img [ref=e109]
+              - generic [ref=e112]: Review Applications
+            - button "My Applications" [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - generic [ref=e117]: My Applications
+          - button "Manage Coaching" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e122]: Manage Coaching
+            - generic [ref=e123]: 
+          - generic:
+            - button "Coach Profile Page" [ref=e124] [cursor=pointer]:
+              - img [ref=e125]
+              - generic [ref=e128]: Coach Profile Page
+            - button "Manage Sessions" [ref=e129] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e133]: Manage Sessions
+            - button "Manage Packages" [ref=e134] [cursor=pointer]:
+              - img [ref=e135]
+              - generic [ref=e138]: Manage Packages
+            - button "Manage Staff" [ref=e139] [cursor=pointer]:
+              - img [ref=e140]
+              - generic [ref=e143]: Manage Staff
+            - button "Session Requests" [ref=e144] [cursor=pointer]:
+              - img [ref=e145]
+              - generic [ref=e148]: Session Requests
+            - button "Club Charge" [ref=e149] [cursor=pointer]:
+              - img [ref=e150]
+              - generic [ref=e153]: Club Charge
+          - button "My Golf" [ref=e154] [cursor=pointer]:
+            - img [ref=e155]
+            - generic [ref=e158]: My Golf
+            - generic [ref=e159]: 
+          - generic:
+            - button "My Sessions" [ref=e160] [cursor=pointer]:
+              - img [ref=e161]
+              - generic [ref=e164]: My Sessions
+            - button "My Packages" [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+              - generic [ref=e169]: My Packages
+          - button "My Badges" [ref=e170] [cursor=pointer]:
+            - img [ref=e171]
+            - generic [ref=e174]: My Badges
+          - button "Camps" [ref=e175] [cursor=pointer]:
+            - img [ref=e176]
+            - generic [ref=e179]: Camps
+            - generic [ref=e180]: 
+          - button "My Camps" [ref=e181] [cursor=pointer]:
+            - img [ref=e182]
+            - generic [ref=e185]: My Camps
+          - button "Membership" [ref=e186] [cursor=pointer]:
+            - img [ref=e187]
+            - generic [ref=e190]: Membership
+            - generic [ref=e191]: 
+          - generic:
+            - button "My Membership" [ref=e192] [cursor=pointer]:
+              - img [ref=e193]
+              - generic [ref=e196]: My Membership
+            - button "Manage Individual Roster" [ref=e197] [cursor=pointer]:
+              - img [ref=e198]
+              - generic [ref=e201]: Manage Individual Roster
+          - button "My Publications" [ref=e202] [cursor=pointer]:
+            - img [ref=e203]
+            - generic [ref=e206]: My Publications
+          - button "Scholarship" [ref=e207] [cursor=pointer]:
+            - img [ref=e208]
+            - generic [ref=e211]: Scholarship
+            - generic [ref=e212]: 
+          - generic:
+            - button "My Scholarships" [ref=e213] [cursor=pointer]:
+              - img [ref=e214]
+              - generic [ref=e217]: My Scholarships
+            - button "Manage Scholarship - Reviewer" [ref=e218] [cursor=pointer]:
+              - img [ref=e219]
+              - generic [ref=e222]: Manage Scholarship - Reviewer
+            - button "Manage Scholarship - Admin" [ref=e223] [cursor=pointer]:
+              - img [ref=e224]
+              - generic [ref=e227]: Manage Scholarship - Admin
+            - button "Scholarship Grant" [ref=e228] [cursor=pointer]:
+              - img [ref=e229]
+              - generic [ref=e232]: Scholarship Grant
+          - button "Volunteering" [ref=e233] [cursor=pointer]:
+            - img [ref=e234]
+            - generic [ref=e237]: Volunteering
+          - button "Learn" [ref=e238] [cursor=pointer]:
+            - img [ref=e239]
+            - generic [ref=e242]: Learn
+            - generic [ref=e243]: 
+          - generic:
+            - button "My Classes" [ref=e244] [cursor=pointer]:
+              - img [ref=e245]
+              - generic [ref=e248]: My Classes
+            - button "Learning Platform" [ref=e249] [cursor=pointer]:
+              - img [ref=e250]
+              - generic [ref=e253]: Learning Platform
+          - button "Group Registration Class" [ref=e254] [cursor=pointer]:
+            - img [ref=e255]
+            - generic [ref=e258]: Group Registration Class
+          - button "Manage Classes /Instructor Dashboard" [ref=e259] [cursor=pointer]:
+            - img [ref=e260]
+            - generic [ref=e261]: Manage Classes /Instructor Dashboard
+          - button "Tests" [ref=e262] [cursor=pointer]:
+            - img [ref=e263]
+            - generic [ref=e266]: Tests
+            - generic [ref=e267]: 
+          - generic:
+            - button "Manage Tests" [ref=e268] [cursor=pointer]:
+              - img [ref=e269]
+              - generic [ref=e272]: Manage Tests
+            - button "My Tests" [ref=e273] [cursor=pointer]:
+              - img [ref=e274]
+              - generic [ref=e277]: My Tests
+          - button "Contributions" [ref=e278] [cursor=pointer]:
+            - img [ref=e279]
+            - generic [ref=e282]: Contributions
+            - generic [ref=e283]: 
+          - generic:
+            - button "My Contributions" [ref=e284] [cursor=pointer]:
+              - img [ref=e285]
+              - generic [ref=e288]: My Contributions
+            - button "My Campaigns" [ref=e289] [cursor=pointer]:
+              - img [ref=e290]
+              - generic [ref=e293]: My Campaigns
+            - button "Manage Team" [ref=e294] [cursor=pointer]:
+              - img [ref=e295]
+              - generic [ref=e298]: Manage Team
+          - button "My Surveys" [ref=e299] [cursor=pointer]:
+            - img [ref=e300]
+            - generic [ref=e303]: My Surveys
+          - button "Events" [ref=e304] [cursor=pointer]:
+            - img [ref=e305]
+            - generic [ref=e308]: Events
+            - generic [ref=e309]: 
+          - generic:
+            - button "My Events" [ref=e310] [cursor=pointer]:
+              - img [ref=e311]
+              - generic [ref=e314]: My Events
+            - button "Speaker Dashboard" [ref=e315] [cursor=pointer]:
+              - img [ref=e316]
+              - generic [ref=e319]: Speaker Dashboard
+            - button "My Credits" [ref=e320] [cursor=pointer]:
+              - img [ref=e321]
+              - generic [ref=e324]: My Credits
+            - button "Manage Event Sessions" [ref=e325] [cursor=pointer]:
+              - img [ref=e326]
+              - generic [ref=e329]: Manage Event Sessions
+            - button "Group Registration" [ref=e330] [cursor=pointer]:
+              - img [ref=e331]
+              - generic [ref=e334]: Group Registration
+          - button "Pathway Tracker" [ref=e335] [cursor=pointer]:
+            - img [ref=e336]
+            - generic [ref=e339]: Pathway Tracker
+          - button "Manage Pathway" [ref=e340] [cursor=pointer]:
+            - img [ref=e341]
+            - generic [ref=e344]: Manage Pathway
+          - button "Meetings" [ref=e345] [cursor=pointer]:
+            - img [ref=e346]
+            - generic [ref=e349]: Meetings
+            - generic [ref=e350]: 
+          - button "My Meetings" [ref=e351] [cursor=pointer]:
+            - img [ref=e352]
+            - generic [ref=e355]: My Meetings
+          - button "Booths" [ref=e356] [cursor=pointer]:
+            - img [ref=e357]
+            - generic [ref=e360]: Booths
+            - generic [ref=e361]: 
+          - button "Manage Booth" [ref=e362] [cursor=pointer]:
+            - img [ref=e363]
+            - generic [ref=e366]: Manage Booth
+          - button "Sponsorship" [ref=e367] [cursor=pointer]:
+            - img [ref=e368]
+            - generic [ref=e371]: Sponsorship
+            - generic [ref=e372]: 
+          - generic:
+            - button "Manage Sponsorship" [ref=e373] [cursor=pointer]:
+              - img [ref=e374]
+              - generic [ref=e377]: Manage Sponsorship
+            - button "Edit Profile" [ref=e378] [cursor=pointer]:
+              - img [ref=e379]
+              - generic [ref=e382]: Edit Profile
+          - button "Committees" [ref=e383] [cursor=pointer]:
+            - img [ref=e384]
+            - generic [ref=e387]: Committees
+          - button "On Demand Series" [ref=e388] [cursor=pointer]:
+            - img [ref=e389]
+            - generic [ref=e392]: On Demand Series
+          - button "Manage Records" [ref=e393] [cursor=pointer]:
+            - img [ref=e394]
+            - generic [ref=e397]: Manage Records
+            - generic [ref=e398]: 
+          - button "Add Record" [ref=e399] [cursor=pointer]:
+            - img [ref=e400]
+            - generic [ref=e403]: Add Record
+          - button "Outbound Grant" [ref=e404] [cursor=pointer]:
+            - img [ref=e405]
+            - generic [ref=e408]: Outbound Grant
+            - generic [ref=e409]: 
+          - generic:
+            - button "My Grants" [ref=e410] [cursor=pointer]:
+              - img [ref=e411]
+              - generic [ref=e414]: My Grants
+            - button "Review Grants" [ref=e415] [cursor=pointer]:
+              - img [ref=e416]
+              - generic [ref=e419]: Review Grants
+          - button "Tasks" [ref=e420] [cursor=pointer]:
+            - img [ref=e421]
+            - generic [ref=e424]: Tasks
+            - generic [ref=e425]: 
+          - generic:
+            - button "View Tasks" [ref=e426] [cursor=pointer]:
+              - img [ref=e427]
+              - generic [ref=e430]: View Tasks
+            - button "Add Task" [ref=e431] [cursor=pointer]:
+              - img [ref=e432]
+              - generic [ref=e435]: Add Task
+          - button "Policies" [ref=e436] [cursor=pointer]:
+            - img [ref=e437]
+            - generic [ref=e440]: Policies
+          - button "Expense Management" [ref=e441] [cursor=pointer]:
+            - img [ref=e442]
+            - generic [ref=e445]: Expense Management
+          - button "Reset Password for Organization" [ref=e446] [cursor=pointer]:
+            - img [ref=e447]
+            - generic [ref=e450]: Reset Password for Organization
+          - button "Bulk Communication Request" [ref=e451] [cursor=pointer]:
+            - img [ref=e452]
+            - generic [ref=e455]: Bulk Communication Request
+          - button "Credentialing" [ref=e456] [cursor=pointer]:
+            - img [ref=e457]
+            - generic [ref=e460]: Credentialing
+            - generic [ref=e461]: 
+          - generic:
+            - button "My Credentials" [ref=e462] [cursor=pointer]:
+              - img [ref=e463]
+              - generic [ref=e466]: My Credentials
+            - button "Review Credentials" [ref=e467] [cursor=pointer]:
+              - img [ref=e468]
+              - generic [ref=e471]: Review Credentials
+            - button "Manage Credentials" [ref=e472] [cursor=pointer]:
+              - img [ref=e473]
+              - generic [ref=e476]: Manage Credentials
+          - button "Payment Due" [ref=e477] [cursor=pointer]:
+            - img [ref=e478]
+            - generic [ref=e481]: Payment Due
+          - button "Relationships" [ref=e482] [cursor=pointer]:
+            - img [ref=e483]
+            - generic [ref=e486]: Relationships
+          - button "Social media Menu" [ref=e487] [cursor=pointer]:
+            - img [ref=e488]
+            - generic [ref=e491]: Social media Menu
+        - text:  
+      - generic [ref=e493]:
+        - text: 
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic [ref=e495]:
+                    - generic [ref=e498]: JohnRay company
+                    - generic [ref=e499]:
+                      - generic [ref=e502] [cursor=pointer]:
+                        - img [ref=e503]
+                        - generic [ref=e505]: My QR
+                      - generic [ref=e508] [cursor=pointer]:
+                        - img [ref=e509]
+                        - generic [ref=e512]: Settings
+                    - generic [ref=e513]: Details
+                    - generic [ref=e514]:
+                      - img "icn-email" [ref=e515]
+                      - text: john.ray@testmail.com
+                    - generic [ref=e516]:
+                      - img "icn-phone" [ref=e517]
+                      - text: (898) 698-6968
+                    - generic [ref=e518]:
+                      - img "icn-location" [ref=e519]
+                      - text: 789 Billing Default St Houston TX, 77001, US
+                  - generic [ref=e521]:
+                    - generic [ref=e525]:
+                      - generic [ref=e526]: Dashboard 1
+                      - list [ref=e528]:
+                        - listitem [ref=e529]:
+                          - heading "Top Contributor" [level=4] [ref=e533]
+                        - listitem [ref=e534]:
+                          - heading "Super Mentor" [level=4] [ref=e538]
+                        - listitem [ref=e539]:
+                          - heading "Active Membership Badge" [level=4] [ref=e543]
+                    - generic [ref=e545]:
+                      - generic [ref=e546]: Organization Login Email Tile
+                      - generic [ref=e547]:
+                        - generic "john.ray@testmail.com" [ref=e550]
+                        - generic [ref=e552]:
+                          - generic [ref=e553]: Organization Login
+                          - generic "JohnRay company" [ref=e554]
+                          - generic [ref=e555]: This is a Org test.This is a Org test.This is a Org test.This is a O
+                    - generic [ref=e557]:
+                      - generic [ref=e558]: Quick Link
+                      - generic [ref=e559]:
+                        - img [ref=e561]
+                        - generic [ref=e569]: AI Series
+                        - generic [ref=e571]: Learn AI through video tutorials
+                        - link "Go to my media" [ref=e573] [cursor=pointer]:
+                          - /url: ""
+                          - text: Go to my media
+                          - generic [ref=e574]: 
+                    - generic [ref=e576]:
+                      - generic [ref=e577]: Your Representative
+                      - generic [ref=e579]:
+                        - generic [ref=e581]: Wiwek Deshmukh
+                        - generic [ref=e582]: wiwek.deshmukh@saralux.com
+                        - generic [ref=e583]: +1 987 654 3210
+                    - generic [ref=e585]:
+                      - generic [ref=e586]: Reward 3
+                      - generic [ref=e590]: 5.00% Cashback
+                    - generic [ref=e592]:
+                      - generic [ref=e593]: Quick Link
+                      - generic [ref=e594]:
+                        - img [ref=e596]
+                        - generic [ref=e605] [cursor=pointer]:
+                          - text: Go to my media
+                          - generic [ref=e606]: 
+                    - generic [ref=e608]:
+                      - generic [ref=e609]: Announcements
+                      - generic [ref=e610]:
+                        - list [ref=e611]:
+                          - listitem [ref=e612]:
+                            - generic [ref=e615]:
+                              - heading "Announcement - IB" [level=4] [ref=e616]
+                              - generic [ref=e617]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus orci venenatis nulla porttitor suscipit. Morbi mollis rutrum pulvinar. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut sit amet dignissim ligula. Morbi nec mauris facilisis, eleifend ex ac, finibus nisi. Nam et tempus metus, id dignissim purus. Pellentesque orci enim, posuere ac dolor at, pretium tincidunt ex. Sed maximus nibh malesuada vehicula porttitor. Suspendisse placerat diam vitae massa efficitur, rutrum malesuada nisi cursus. In leo ipsum, porta eget quam porttitor, volutpat porttitor ipsum. Donec molestie porttitor ante sed fermentum. Duis accumsan nulla facilisis velit volutpat, sit amet scelerisque libero pellentesque.Ã‚Â
+                          - listitem [ref=e618]:
+                            - generic [ref=e621]:
+                              - heading "Announcement 1" [level=4] [ref=e622]
+                              - generic [ref=e623]: test announcement
+                        - link "view all" [ref=e625] [cursor=pointer]:
+                          - /url: http://www.google.com
+                          - text: view all
+                          - generic [ref=e626]: 
+                    - generic [ref=e628]:
+                      - generic [ref=e629]: My Subscriptions
+                      - generic [ref=e630]:
+                        - heading "No Subscriptions" [level=4] [ref=e632]
+                        - link "Click here to subscribe" [ref=e634] [cursor=pointer]:
+                          - /url: /publications
+                          - text: Click here to subscribe
+                          - generic [ref=e635]: 
+                    - generic [ref=e637]:
+                      - generic [ref=e638]: My Points
+                      - generic [ref=e639]:
+                        - heading "No Points" [level=5] [ref=e641]
+                        - generic [ref=e642]: You do not have any points yet. Points can be earned by completing certain tasks.
+                    - generic [ref=e644]:
+                      - generic [ref=e645]: My Sessions (Coach)
+                      - heading "No Sessions" [level=4] [ref=e648]
+                    - generic [ref=e650]:
+                      - generic [ref=e651]: My Badges
+                      - list [ref=e653]:
+                        - listitem [ref=e654]:
+                          - heading "Top Contributor" [level=4] [ref=e658]
+                        - listitem [ref=e659]:
+                          - heading "Super Mentor" [level=4] [ref=e663]
+                        - listitem [ref=e664]:
+                          - heading "Active Membership Badge" [level=4] [ref=e668]
+                    - generic [ref=e670]:
+                      - generic [ref=e671]: My Credentials
+                      - generic [ref=e672]:
+                        - heading "No Credentials" [level=4] [ref=e674]
+                        - link "view all" [ref=e676] [cursor=pointer]:
+                          - /url: /credentialing-programs
+                          - text: view all
+                          - generic [ref=e677]: 
+                    - generic [ref=e679]:
+                      - generic [ref=e680]: Upcoming Event
+                      - generic [ref=e681]:
+                        - heading "No Upcoming Events" [level=4] [ref=e683]
+                        - link "view all events" [ref=e685] [cursor=pointer]:
+                          - /url: /events
+                          - text: view all events
+                          - generic [ref=e686]: 
+                    - generic [ref=e688]:
+                      - generic [ref=e689]: My Contributions
+                      - list [ref=e691]:
+                        - listitem [ref=e692]:
+                          - generic [ref=e695]:
+                            - heading "$0.00" [level=4] [ref=e696]
+                            - generic [ref=e697]: Current Year
+                        - listitem [ref=e698]:
+                          - generic [ref=e701]:
+                            - heading "$657.45" [level=4] [ref=e702]
+                            - generic [ref=e703]: Previous Year
+                        - listitem [ref=e704]:
+                          - generic [ref=e707]:
+                            - heading "$690.45" [level=4] [ref=e708]
+                            - generic [ref=e709]: Total
+                    - generic [ref=e711]:
+                      - generic [ref=e712]: Job Posting
+                      - generic [ref=e713]:
+                        - heading "No Job posting" [level=4] [ref=e715]
+                        - link "No job posting" [ref=e717] [cursor=pointer]:
+                          - /url: /job-posting
+                          - text: No job posting
+                          - generic [ref=e718]: 
+                    - generic [ref=e720]:
+                      - generic [ref=e721]: My Scholarship
+                      - heading "No scholarship" [level=4] [ref=e724]
+  - contentinfo [ref=e725]:
+    - generic: 
+    - generic [ref=e726]:
+      - generic [ref=e732]:
+        - img [ref=e733]
+        - heading "we are an organization for teachers" [level=4] [ref=e734]
+      - list [ref=e736]:
+        - listitem [ref=e737]:
+          - link "Home" [ref=e738] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e739]:
+          - link "Merchandise" [ref=e740] [cursor=pointer]:
+            - /url: /merchandise
+        - listitem [ref=e741]:
+          - link "Events" [ref=e742] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=e743]:
+          - link "Membership" [ref=e744] [cursor=pointer]:
+            - /url: /membership-registration
+      - generic [ref=e750]:
+        - text: 703 Ozella Heaven
+        - text: Goldner Camp
+        - text: NY
+      - generic [ref=e756]:
+        - text: Family involvement
+        - text: Institute for teaching
+        - text: Read across America
+    - generic [ref=e763]: © 2018-2020 Saralux
+```
